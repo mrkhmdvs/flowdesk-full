@@ -968,3 +968,7 @@ function Mine() {
     </div>
   );
 }
+
+function Note({ children }) {
+  return <p style={{ fontSize: 11.5, color: T.txt3, marginTop: 10, lineHeight: 1.55, marginBottom: 0 }}>{children}</p>;
+}
